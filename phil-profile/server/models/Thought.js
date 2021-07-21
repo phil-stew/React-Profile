@@ -4,36 +4,35 @@ const dateFormat = require('../utils/dateFormat');
 const thoughtSchema = new Schema({
   thoughtText: {
     type: String,
-    required: 'You need to leave a thought!',
     minlength: 1,
-    maxlength: 280,
+    maxlength: 1000,
     trim: true,
   },
-  thoughtAuthor: {
+  
+  aboutMeText: {
     type: String,
-    required: true,
+    minlength: 1,
+    maxlength: 1000,
     trim: true,
   },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-    get: (timestamp) => dateFormat(timestamp),
+  
+  activeText: {
+    type: String,
+    minlength: 1,
+    maxlength: 1000,
+    trim: true,
   },
-  comments: [
-    {
-      commentText: {
-        type: String,
-        required: true,
-        minlength: 1,
-        maxlength: 280,
-      },
-      createdAt: {
-        type: Date,
-        default: Date.now,
-        get: (timestamp) => dateFormat(timestamp),
-      },
-    },
-  ],
+
+  pastTimeText: {
+    type: String,
+    minlength: 1,
+    maxlength: 1000,
+    trim: true,
+  },
+  
+
+
+
 });
 
 const Thought = model('Thought', thoughtSchema);
