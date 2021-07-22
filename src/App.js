@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import About from "./components/aboutMe.js"
+import About from "./components/aboutMe"
 import SoloWork from "./components/soloWork"
-import GroupWork from "./components/groupWork.js"
+import GroupWork from "./components/groupWork"
+import User from "./components/userprofiles"
+//import GroupWork from "./components/groupWork"
 import Contact from './components/contactMe';
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <About />
         <SoloWork/>
         <GroupWork />
+        <User />
       </header>
       <Contact />
     </div>      

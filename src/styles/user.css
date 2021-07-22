@@ -1,4 +1,4 @@
-.solo{
+.user{
     width: 80%;
     margin: .3rem;
     background-color: #d9e5fc;
@@ -6,4 +6,5 @@
     box-shadow: 2px 2px 12px rgba(36, 5, 211, 0.25);
     align-items: center;
     border-color: darkblue;
+    color: #000;
 }
