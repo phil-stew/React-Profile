@@ -10,6 +10,7 @@
     
     #nav {
         width: 100%;
+        position: relative;
         float: left;
         margin: 0 0 3em 0;
         padding: 0;

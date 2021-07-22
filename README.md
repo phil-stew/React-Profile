@@ -34,3 +34,10 @@ Please make sure to update tests as appropriate.
 
 The app on [heroku](https://react-profile-phil.herokuapp.com/)
 Work app on Heroku ![Click here](src/img/hero.png)
+finally adding Navbar ![here](src/img/nav.png)
+
+
+## Sorces 
+
+Used some code of the net for the Navbar and footer bar  
+found it hard to style stuff to there center.

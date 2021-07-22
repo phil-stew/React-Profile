@@ -35,19 +35,21 @@ import SoloWork from './pages/soloWork';
 import GroupWork from './pages/groupWork';
 import UserProfile from './pages/userprofiles';
 import Contact from './pages/contactMe';
+import Footer from './components/Footer';
 
 
 function App() {
 return (
 	<Router>
 	<Navbar />
+	<Footer />
 	<Switch>
     {/* <Route path='/' exact component={Home} /> */}
 		<Route path='/aboutMe' component={About} />
 		<Route path='/soloWork' component={SoloWork} />
 		<Route path='/group' component={GroupWork} />
 		<Route path='/repos' component={UserProfile} />
-    <Route path='/contact' component={Contact} />
+        <Route path='/contact' component={Contact} />
 
 	</Switch>
 	</Router>
