@@ -2,17 +2,18 @@
     width: 80%;
     margin: -7% auto 6% auto;
     min-height: 330px;
-    background-color: #FFFFFF;
+    background-color: #d9e5fc;
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.25);
     display: flex;
     position: relative;
     align-items: center;
-    z-index: 3;
+
 }
 
 .about-me img {
     min-height: 250px;
+    max-width: 250px;
 }
 
 .about-me-info {
@@ -20,20 +21,20 @@
     text-align: center;
 }
 
-.about-me h1 {
-    color: #403e3e;
+.about-me-info h1  {
+    color: #050000;
     font-family: 'Bree Serif', serif;
     font-size: 28px;
-    font-weight: 300;
-    line-height: 10px;
+    font-weight: 600;
+   
 }
-.about-me h2 {
-    color: #3e3d3d;
-    font-size: 18px;
+.about-me-info h2 h3{
+    color: #080000;
+    font-size: 15px;
     font-family: 'Bree Serif', serif;
     font-weight: 200;
     line-height: 5px;
-    z-index: 5;
+ 
 }
 
 .about-me-info p {

@@ -1,11 +1,13 @@
 import React  from 'react';
 import '../styles/action.css'
+import Phil from "../img/phil.jpg"
 //import '../app.css'
 
 function AboutMe() {
     //const info = "#"
     return (
         <div className="about-me">
+            <img src={Phil} alt='phillip stewart'  />
             <div className="about-me-info">
                 <h1> About me Phillip Stewart </h1>
                 <h2> Some to be life insurance agent</h2>
