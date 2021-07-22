@@ -1,24 +1,37 @@
 import React  from 'react';
-//import '../assets/styles/Style.css'
+import '../styles/solo.css'
 //import '../app.css'
 
 function soloWork() {
 
     return (
-        <div className="about-me">
-            <div className="about-me-info">
-                <h1> About me Phillip Stewart </h1>
-                <h2> Some to be life insurance agent</h2>
-                <h3> Worked full time for a supply chain company</h3>
 
-                <p> I am middle age adult born in Jamaica, However i migrated to canada at an early age.
-                    Grew up in the Greater Tronto Area,(GTA) Brampton to be exact finshed high school,
-                    Along with some psot secondary</p>
-
-                <a href="#portfolio"><button className="portfolio-btn">Portfolio</button></a>
-
-            </div>
+        <body class= "solo">
+        <div class="card-group ">
+        <div class="card solo " >
+          <div class="card-body">
+            <h5 class="card-title">Github Solo Work</h5>
+            <p class="card-text">Some quick examples of what I worked on during my Bootcamp with Carlton University </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group">Password Generator - simple passcode generator</li>
+            <li class="list-group">Weather App - Application for seeing the weather</li>
+            <li class="list-group">Day Planner - Application for planning your workday</li>
+          </ul>
+          <div class="card-body">
+            <li>
+            <a href="https://phil-stew.github.io/password-gen/" class="card-link">Password Gen</a>
+          </li>
+          <li>
+            <a href="https://phil-stew.github.io/Weather-Appi/" class="card-link">Weather App</a>
+          </li>
+          <li>
+            <a href="https://phil-stew.github.io/Day-Planner-Ex/" class="card-link">Day Planer</a>
+          </li>
+          </div>
         </div>
+        </div>
+        </body>
     )
 }
 
