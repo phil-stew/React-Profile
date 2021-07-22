@@ -17,7 +17,6 @@ function AboutMe() {
                     Grew up in the Greater Tronto Area,(GTA) Brampton to be exact finshed high school,
                     Along with some psot secondary</p>
 
-                <a href="#portfolio"><button className="portfolio-btn">Portfolio</button></a>
 
             </div>
         </div>
