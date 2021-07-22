@@ -8,7 +8,7 @@ return (
 
 <body class="user">
 <div class="card-group">
-<div class="card " >
+<div class="card user" >
 <div class="card-body ">
 <h5 class="card-title">Github Profile</h5>
 <p class="card-text">A link to my Github profile </p>
@@ -29,14 +29,14 @@ return (
 </div>
 
 
-<div class="card" >
+<div class="card user" >
 
 <div class="card-body">
 <h5 class="card-title">Heroku</h5>
 <p class="card-text">My heroku Account </p>
 </div>
 <ul class="list-group list-group-flush">
-<li class="list-group">Sports Reel - First group projest we made a app that showed NBA stats for players and teams</li>
+<li class="list-group">Heroku -  here is a link to my heroku account</li>
 <li class="list-group">Revenue Tracker - Application for tracker revenue simulated through an e-com store</li>
 
 </ul>
